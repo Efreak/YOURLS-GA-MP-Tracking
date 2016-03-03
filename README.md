@@ -10,7 +10,7 @@ YOURLS.org is a best cumstom URL shortner script in PHP. YOURLS has many usefull
 <ul>
 <li>Create New Account Property in Google Analytics - Universal Analytic (Important)&nbsp;</li>
 <li>Get Tracking ID (Eg: UA-43862376-6)&nbsp;</li>
-<li>Download <i>YOURS-GA-MP-Tracking.zip</i>, extract it  and replace your GA Tracking code on line 64 (<b>$power_ga_mp_GAID</b>) in plugin.php</li>
+<li>cd to user/plugins and `git clone https://github.com/Efreak/YOURLS-GA-MP-Tracking GA-MP-Tracking` and replace your GA Tracking code on line 64 (<b>$power_ga_mp_GAID</b>) in plugin.php</li>
 <li>Upload&nbsp;<b>GA-Measurement-Protocol</b> folder to /user/plugins/ path. (html/YOURLS INSTALL PATH/user/plugins/)</li>
 <li>Go to manage plugins in your YOURLS Admin interface and Activate it.</li>
 </ul>
